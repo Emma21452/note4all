@@ -1,0 +1,76 @@
+body {
+  width: 350px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#addNote {
+  background: #28a745;
+  border: none;
+  color: white;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#notesList {
+  margin: 10px 0;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.note-item {
+  padding: 5px;
+  background: #2e2e2e;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.note-item.active {
+  background: #0078d7;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.delete {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #dc3545;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.capture {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #6f42c1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Multi Notes Pro",
+  "version": "2.0",
+  "description": "Bloco de notas com captura de tela.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "downloads"
+  ]
+}
